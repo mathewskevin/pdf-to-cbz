@@ -7,8 +7,8 @@
 
 # manual input
 # Change read_dir and write_dir to your preference.
-read_dir = r'C:\Users\zbdxwr\Stuff\Product_Eng\Workspace\pdf_to_cbz\Books' # folder where your PDFs are located
-write_dir = r'C:\Users\zbdxwr\Stuff\Product_Eng\Workspace\pdf_to_cbz\Completed' # folder where completed cbz files should go
+read_dir = r'C:\Users\Documents\pdf_to_cbz\Books' # folder where your PDFs are located
+write_dir = r'C:\Users\Documents\Workspace\pdf_to_cbz\Completed' # folder where completed cbz files should go
 
 # https://realpython.com/pdf-python/
 import os, sys
