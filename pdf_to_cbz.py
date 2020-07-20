@@ -17,6 +17,7 @@ from pdf2image import convert_from_path
 import tempfile
 import zipfile
 
+# function to handle image conversion
 def get_pdf_photos(input_path, newZip):
 	def empty_folder(folder_loc):	
 		for the_file in os.listdir(folder_loc):
@@ -68,7 +69,7 @@ def get_pdf_photos(input_path, newZip):
 			# save image to zip file
 			newZip.write(os.path.join(path, picture_name), arcname = picture_name, compress_type=zipfile.ZIP_DEFLATED)
 
-# function to make cbr conversion more verbose
+# function to create zip file and make cbz conversion more verbose
 def convert_pdf_to_comic(input_path, output_path):
 
 	# interperet input path
